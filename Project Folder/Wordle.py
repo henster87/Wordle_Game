@@ -15,7 +15,6 @@ API_Response = urllib2.urlopen(API)
 txt = API_Response.read().decode("utf-8").split() # decoding the bytes to use them as a string then separating the string using split
 wordList = list(filter(lambda x: len(x) == wordLength, txt)) # making a list with only words of the specified length
 wordToGuess = (random.choice(wordList)) # choosing a random word from the list
-print(wordToGuess)
 
 tries = 5
 tleft = tries
