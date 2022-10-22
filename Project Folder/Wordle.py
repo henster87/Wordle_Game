@@ -4,7 +4,7 @@ from colorama import Fore
 
 print('Your goal is to guess the word correctly!\n')
 print('Green means: The letter is in the word AND in the right place\nYellow means: The letter is in the word BUT in the wrong place\nRed means: The letter is not in the word\n')
-print('Note: If the word as multiple occurences of a letter, if your guess has more of those letters, the rest of them will appear in RED instead of GREEN or YELLOW.\n')
+print('Note: If the word has multiple occurences of a letter, and your guess has more of those letters, the remainder will appear in RED instead of GREEN or YELLOW.\n')
 print("Good Luck!\n")
 print('\n--------------\n')
 
